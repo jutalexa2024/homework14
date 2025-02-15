@@ -10,12 +10,12 @@ export const login = async (req: Request, res: Response) => {
   try {
     const user = await User.findOne({ where: { username } });
     if (!user) {
-      return res.status(401).json({ message: 'Authentication failed' });
+      return res.status(401).json({ message: 'Authentication failed, user not in db' });
     }
     
     const passwordIsValid = await bcrypt.compare(password, user.password);
     if (!passwordIsValid) {
-      return res.status(401).json({ message: 'Authentication failed' });
+      return res.status(401).json({ message: 'Authentication failed, invalid password' });
     }
     
     const secretKey = process.env.JWT_SECRET_KEY || '';
