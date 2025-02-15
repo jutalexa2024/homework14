@@ -8,6 +8,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 A Kanban board application enhanced with JWT authentication, allowing users to securely log in and manage tasks. Built with React, Node.js, and JWT for secure authentication, with deployment to Render for easy access.
 
+![image](https://github.com/user-attachments/assets/92507df3-d676-486c-9d62-ea570a26b7bf)
+
+
 ## Table of Contents
 
 - [Description](#description)
