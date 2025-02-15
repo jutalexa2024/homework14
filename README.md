@@ -26,6 +26,7 @@ git clone https://github.com/your-username/krazy-kanban.git
 cd krazy-kanban
 npm install
 npm run dev
+```
 Open your browser and navigate to http://localhost:5173 to view the app.
 
 ##Usage
@@ -43,29 +44,36 @@ Fork the repository.
 
 Clone your forked repository:
 
-bash
+```bash
 Copy
 Edit
 git clone https://github.com/your-username/krazy-kanban.git
+
+```
 Create a new branch for your feature:
 
-bash
+```bash
 Copy
 Edit
 git checkout -b feature-name
+
+```
 Make your changes and commit them:
 
-bash
+```bash
 Copy
 Edit
 git add .
 git commit -m "Add your message here"
+
+```
 Push to your fork:
 
-bash
+```bash
 Copy
 Edit
 git push origin feature-name
+```
 Open a pull request to the main repository.
 
 ##Contribution Guidelines
