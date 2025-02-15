@@ -29,17 +29,17 @@ npm run dev
 ```
 Open your browser and navigate to http://localhost:5173 to view the app.
 
-##Usage
+## Usage
 Navigate to the login page to log into your account using JWT authentication.
 Once logged in, you can access the Kanban board and start managing tasks.
 
-##Features
+## Features
 JWT authentication for secure login and session management.
 React-based user interface for task management.
 Kanban board with task creation, editing, and deletion features.
 Deployed to Render for online access.
 
-##How to Contribute
+## How to Contribute
 Fork the repository.
 
 Clone your forked repository:
@@ -76,7 +76,7 @@ git push origin feature-name
 ```
 Open a pull request to the main repository.
 
-##Contribution Guidelines
+## Contribution Guidelines
 Ensure your code adheres to the projects style and conventions.
 Include meaningful commit messages.
 Update documentation if necessary.
@@ -87,7 +87,7 @@ Run the app locally using npm run dev.
 Manually test login, task creation, and board interactions.
 Automated testing is planned for future updates.
 
-##Questions
+## Questions
 For any questions or issues, please open an issue in the repository or reach out via email.
 - GitHub: [jutalexa2024](https://github.com/jutalexa2024)
 - Email: [justin@example.com](mailto:justin@example.com)
