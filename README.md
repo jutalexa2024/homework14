@@ -69,7 +69,7 @@ git push origin feature-name
 Open a pull request to the main repository.
 
 ##Contribution Guidelines
-Ensure your code adheres to the project's style and conventions.
+Ensure your code adheres to the projects style and conventions.
 Include meaningful commit messages.
 Update documentation if necessary.
 Tests
