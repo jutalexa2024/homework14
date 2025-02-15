@@ -45,24 +45,21 @@ Fork the repository.
 Clone your forked repository:
 
 ```bash
-Copy
-Edit
+
 git clone https://github.com/your-username/krazy-kanban.git
 
 ```
 Create a new branch for your feature:
 
 ```bash
-Copy
-Edit
+
 git checkout -b feature-name
 
 ```
 Make your changes and commit them:
 
 ```bash
-Copy
-Edit
+
 git add .
 git commit -m "Add your message here"
 
@@ -70,8 +67,7 @@ git commit -m "Add your message here"
 Push to your fork:
 
 ```bash
-Copy
-Edit
+
 git push origin feature-name
 ```
 Open a pull request to the main repository.
