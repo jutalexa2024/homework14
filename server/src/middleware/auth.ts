@@ -6,6 +6,7 @@ interface JwtPayload {
 }
 
 export const authenticateToken = (req: Request, res: Response, next: NextFunction) => {
+  console.log("Getting Authroization from Post Login Method")
   // Get the authorization header from the request
   const authHeader = req.headers.authorization;
 
@@ -13,10 +14,10 @@ export const authenticateToken = (req: Request, res: Response, next: NextFunctio
   if (authHeader) {
     // Extract the token from the authorization header
     const token = authHeader.split(' ')[1];
-
+    console.log("Reading S Key")
     // Get the secret key from the environment variables
     const secretKey = process.env.JWT_SECRET_KEY || '';
-
+    console.log("Verifying token")
     // Verify the JWT token
     jwt.verify(token, secretKey, (err, user) => {
       if (err) {
