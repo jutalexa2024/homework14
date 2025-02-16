@@ -6,4 +6,6 @@ export const seedUsers = async () => {
     { username: 'Test2', password: 'password' },
     { username: 'Test3', password: 'password' },
   ], { individualHooks: true });
+
+  console.log('Seeded users');
 };
